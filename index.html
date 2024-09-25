@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Académico UPEU</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Enlace al archivo CSS -->
+    <style>
+        /* Reset básico */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: hsl(0, 0%, 99%);
+            color: #333;
+            padding: 10px;
+        }
+
+        /* Estilos para el encabezado */
+        header {
+            background-color: #33f3cd;
+            color: white;
+            padding: 1.5rem;
+            text-align: center;
+        }
+
+        header h1 {
+            margin-bottom: 0.5rem;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Sección de Inicio */
+        #inicio {
+            background-color: #ff9999;
+            /* Color rojo suave */
+            padding: 2rem;
+            margin: 1rem 0;
+            border-radius: 10px;
+        }
+
+        #inicio h2 {
+            color: #333;
+        }
+
+        /* Sección de Bibliografía */
+        #bibliografia {
+            background-color: #99ccff;
+            /* Color azul suave */
+            padding: 2rem;
+            margin: 1rem 0;
+            border-radius: 10px;
+        }
+
+        #bibliografia p {
+            color: #333;
+        }
+
+        /* Sección de Habilidades */
+        #habilidades {
+            background-color: #99ff99;
+            /* Color verde suave */
+            padding: 2rem;
+            margin: 1rem 0;
+            border-radius: 10px;
+        }
+
+        #habilidades ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+
+        #habilidades ul li {
+            margin-bottom: 0.5rem;
+        }
+
+        /* Sección de Proyectos */
+        #proyectos {
+            background-color: #ffcc99;
+            /* Color naranja suave */
+            padding: 2rem;
+            margin: 1rem 0;
+            border-radius: 10px;
+        }
+
+        #proyectos ul {
+            padding-left: 20px;
+        }
+
+        #proyectos ul li {
+            margin-bottom: 0.5rem;
+        }
+
+        /* Sección de Galería */
+        #galeria {
+            background-color: #ffccff;
+            /* Color rosa suave */
+            padding: 2rem;
+            margin: 1rem 0;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .galeria {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .galeria img {
+            width: 150px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 10px;
+            border: 2px solid #ccc;
+        }
+
+        /* Sección de Contacto */
+        #contacto {
+            background-color: #ffff99;
+            /* Color amarillo suave */
+            padding: 2rem;
+            margin: 1rem 0;
+            border-radius: 10px;
+        }
+
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: bold;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 0.5rem;
+            margin-bottom: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            display: block;
+            width: 100%;
+            padding: 0.75rem;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+
+        /* Pie de página */
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            background-color: #333;
+            color: white;
+            margin-top: 2rem;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Encabezado -->
+    <header>
+        <h1>Sarai Siba Apaza Turpo</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#bibliografia">Bibliografía</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de Inicio -->
+    <section id="inicio">
+        <h2>Inicio</h2>
+        <p>¡Bienvenidos a mi página web personal! Soy Juan, estudiante de Administración, apasionado por la tecnología y
+            la gestión empresarial.</p>
+
+        <img src="logotipo.jpg" alt="Descripción de la imagen" class="logo">
+
+    </section>
+
+    <!-- Sección de Bibliografía -->
+    <section id="bibliografia">
+        <h2>Bibliografía</h2>
+        <p>Aquí encontrarás una breve descripción sobre mí. Soy estudiante de Administración, interesado en el marketing
+            digital, la gestión de proyectos y el análisis de datos. Siempre busco nuevas formas de aplicar tecnología
+            en el campo empresarial para mejorar la eficiencia y el desarrollo organizacional.</p>
+    </section>
+
+    <!-- Sección de Habilidades -->
+    <section id="habilidades">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>Gestión de Proyectos</li>
+            <li>Marketing Digital</li>
+            <li>Análisis de Datos</li>
+            <li>Desarrollo Web Básico</li>
+        </ul>
+    </section>
+
+    <!-- Sección de Proyectos -->
+    <section id="proyectos">
+        <h2>Proyectos</h2>
+        <p>Aquí puedes encontrar algunos de mis proyectos recientes:</p>
+        <ul>
+            <li><strong>Proyecto 1:</strong> Gestión de inventarios para pequeñas empresas.</li>
+            <li><strong>Proyecto 2:</strong> Estrategias de marketing digital para startups.</li>
+            <li><strong>Proyecto 3:</strong> Análisis de datos financieros para mejorar la toma de decisiones.</li>
+        </ul>
+    </section>
+
+    <!-- Sección de Galería de Fotos o Multimedia -->
+    <section id="galeria">
+        <h2>Galería de Fotos o Multimedia</h2>
+
+        <video controls width="600">
+            <source src="tu-video.mp4" type="video/mp4">
+            Tu navegador no soporta la etiqueta de video.
+        </video>
+
+        <div class="galeria">
+            <img src="foto1.jpg" alt="Foto 1">
+            <img src="foto2.jpg" alt="Foto 2">
+            <img src="foto3.jpg" alt="Foto 3">
+        </div>
+
+        
+        <iframe width="668" height="376" src="https://www.youtube.com/embed/wUs1xVpLPT0"
+            title="Buscas - Video Con Letras" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form action="#" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>© 2024 Mi Página Personal. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
